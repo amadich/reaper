@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    background-color: #222;
+}
+
+/* Header Styles */
+header ul {
+    margin: 0;
+}
+header ul li {
+    display: inline-block;
+    color: whitesmoke;
+    font-weight: 700;
+    text-shadow: 0 0 30px wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+header ul li:hover {color: orange; text-decoration: underline gold 10px;}
+#h_li{color: orange; text-decoration: underline gold 10px;}
+header .logoHeader {
+    border: 1px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px orange;
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-top: 3%;
+    background: url(../img/Logo.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#bar_header{
+    /*border: 1px solid gold;*/
+}
+
+/* Nav Styles */ 
+nav {
+    border-bottom: 1px solid transparent;
+    
+    height: 70px;
+}
+.mq {
+    background-color: none;
+    background: none;
+    color: wheat;
+    font-weight: 700;
+    font-family: cursive;
+}
+/* Aside Styles */
+aside {
+    float: right;
+    margin-right: 3em;
+}
+
+/* Article Styles */
+
+article {
+    margin-top: 10%;
+    border-right: 1px solid aliceblue;
+    width: 50%;
+    height: 100%;
+}
+article ul .logo_gta {
+    float: right;
+    width: 90px;
+    height: 90px;
+    border: 1px solid transparent;
+    background: url(../img/gta_logo.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+article ul li {
+    display: block;
+    color: whitesmoke;
+}
+article .tit {
+    font-size: 50px;
+    font-family: cursive;
+}
+.ab_tit {
+    font-family: monospace;
+}
+article button {
+    margin-top: 5%;
+    width: 250px;
+    height: 50px;
+    background: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background: url(../img/tr.png) repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(119, 41, 102, 0.219);
+    border: 1px solid deeppink;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+.aboutPage {
+    color: floralwhite;
+}
+
+.aboutPage {
+    width: 50%;
+}
+#btn_ip {
+    display: inline-block;
+    background: url(../img/tr.png) repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(114, 119, 41, 0.219);
+    width: 250px;
+    height: 50px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+.span_ab_ip {
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+}
+a{text-decoration: none;}
+.about_ip_tit {
+    font-family: monospace;
+    margin-top: 5%;
+    color: aliceblue;
+    animation: tgb_ab 3s linear infinite;
+}
+.about_ip_tit::marker{
+    content: ' 🍃 ';
+}
+@keyframes tgb_ab {
+    0%{color: aliceblue;}
+    25%{color: whitesmoke;}
+    50%{color: #222;}
+    75%{color: whitesmoke;}
+    100%{color: aliceblue;}
+}
+/* Contact Styles */
+.contact_me {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid aliceblue;
+    border-left: 1px solid aliceblue;
+    margin: 2em;
+    background: url(../img/tr.png) repeat;
+    background-position: center center;
+    background-size: 50%;
+}
+.contact_me p {
+    float: right;
+    color: aliceblue;
+    width: 30%;
+    margin-right: 2em;
+    margin-top: 5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: default;
+}
+.logo_greenv {
+    float: right;
+    width: 80px;
+    height: 80px;
+    background: url(../img/gta-v-green-4.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: drop-shadow(0 0 50px limegreen);
+}
+.in1{
+    display: block;
+    margin: 2em;
+    width: 250px;
+    height: 40px;
+    color: antiquewhite;
+    border: 1px solid #999;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    background: none;
+    outline: none;
+    transition: 0.4s;
+}
+.in1::placeholder{color: whitesmoke;}
+.in1:hover{width: 300px;}
+.in1:focus{border: 1px solid orange;}
+.inp span {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.inp button {
+    margin-left: 2em;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #e78708;
+    background: none;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: not-allowed;
+}
+/* Footer Styles */
+footer {
+    display: table;
+    margin: auto;
+    text-align: center;
+    border-top: #f0d0b4;
+    
+}
+footer p {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* fix */
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f0d0b4;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e78708;
+    border-radius: 50px;
+   }
